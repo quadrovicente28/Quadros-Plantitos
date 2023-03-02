@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: montana;
+  src: url(./Css/Montana-Demo.otf);
+}
+.custom-btn {
+  box-shadow: none;
+  background-color: #B77445;
+  font-family: quicksand;
+  font-weight: 600;
+}
+
+.custom-font {
+  font-family: montana;
+  font-size: 100px;
+  color: #3E6553;
+}
+
+.custom-font2 {
+  font-family: quicksand;
+  color: #3E6553;
+  font-size: 18px;
+  font-weight: 650;
+  text-shadow: 2px;
+}
+
+.custom-textarea~label {
+  color: rgba(0,0,0);
+}
+.custom-textarea:focus~label {
+  color: #0148b9;
+  opacity: 1;
+  margin-top: -5px;
+}
+
+:root {
+  font-family: quicksand, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(242, 242, 242);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(226, 221, 221);
+  border-radius: 10px;
+}
+
+
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #e9deda inset !important;
+    -webkit-text-fill-color: #773407 !important;
+}

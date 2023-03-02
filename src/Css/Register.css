@@ -1,0 +1,15 @@
+.background-radial-gradient {
+    background-color: hsl(218, 41%, 15%);
+    background-image: url(../assets/succ.jpg);   
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center; 
+  }
+  
+
+  
+  .bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    backdrop-filter: saturate(200%) blur(25px);
+  }

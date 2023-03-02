@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.con-center {
+    display: flex;
+    justify-content: center;
+}
+
+.row__2{
+    background-color: #3E6553;
+    border-radius: 1rem;
+    overflow: auto;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.title-center {
+    text-align: center;
+    color: white;
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin: 50px;
+}
+
+.steps__card {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2.5rem 1.5rem 2rem 1rem;
+    color: black;
+}
+.mb-7.step__2 {
+    padding: 0;
+}
+.steps__card-number {
+  display: inline-block;
+  background-color: #365949;
+  color: #FFF;
+  padding: .5rem .75rem;
+  border-radius: .25rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: .3s;
+}
+.steps__card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: hsl(152, 4%, 15%);
+}
+.steps__card-description {
+    font-size: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: hsl(152, 4%, 35%);
+}
+.steps__card:hover .steps__card-number{
+    transform: translateY(-.25rem);
+  }
+  @media (max-width: 992px) {
+    .mb-7.step__2 {
+        padding: 0.8rem;
+    }
+  }
+  @media (max-width: 1400px) {
+    .step__3 {
+        font-size: 15.6px ;
+    }
+  }

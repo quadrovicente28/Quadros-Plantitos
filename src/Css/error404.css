@@ -1,0 +1,38 @@
+.not-found {
+    background-image: url("https://images.unsplash.com/photo-1495051964098-df2856bfee39?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 5%;
+}
+.error-main {
+    display: flex; 
+    /* width: 100%; */
+    justify-content: center;
+    font-size: 200px ;
+    line-height: normal;
+    color: antiquewhite;
+   
+}
+.error-body {
+    
+    /* text-align: center; */
+    font-size: xx-large;
+    color: antiquewhite;
+ 
+}
+
+.glass-card{
+    background-color: rgba(255, 255, 255, 0.072);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* min-width: 200px; */
+
+    padding: 50px;
+}

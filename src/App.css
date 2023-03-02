@@ -1,0 +1,33 @@
+
+.custom-btn:hover, .custom-btn:focus, .custom-btn:disabled {
+    box-shadow: none;
+    background-color: #c0917f !important;
+}
+
+.link-custom{
+    color: #B77445;
+}
+
+.link-custom:hover, .link-custom:focus {
+    color: #c0917f;
+}
+
+.custom-nav-item:active{
+    font-weight: bold;
+    background-color: rgb(107, 14, 14);
+}
+
+.form-err-msg{
+    color: #ed360d;
+    font-size: 10px;
+}
+
+.profile-menu{
+    color: black;
+}
+
+.profile-menu:hover{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    background-color: #c0917f;
+}
